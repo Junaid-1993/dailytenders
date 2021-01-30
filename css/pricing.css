@@ -1,0 +1,94 @@
+/************* pricing page ************/
+
+/******** pricing header ******/
+
+.pricing__hero {
+    padding: 0;
+    height: auto;
+}
+
+.pricing__hero__container {
+    padding: 14rem 0;
+}
+
+.pricing__bold {
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+/***************** pricing body ******************/
+
+.pricing__body__icon{
+    width: 17%;
+}
+
+.pricing__body__content {
+    font-size: 2.1rem;
+    font-weight: 500;
+    position: relative;
+    right: 15rem;
+}
+
+.pricing__body__margin {
+    margin-top: 4.5rem;
+}
+/************** pricing price **************/
+
+.pricing__pricing {
+    height: 500px;
+    background-color: #51ADCF;
+    text-align: center;
+    background-image: linear-gradient(rgb(81,173,207,0.7), rgb(81,173,207,0.7)), url("public/images/main-background-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 6rem;
+}
+
+/*************** pricing oppertunities ***************/
+
+.tender__opper__container {
+    margin-top: 3.5rem;
+}
+.tender__opper__content {
+    font-size: 2.1rem;
+}
+
+.tender__opper__margin {
+    margin-top: 4rem;
+}
+
+
+/****************** Media Query *****************/
+
+@media screen and (max-width: 1200px) {
+    .pricing__body__content {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .pricing__body__icon {
+        width: 23%;
+    }
+    .pricing__body__content {
+        right: 10rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .pricing__body__icon {
+        width: 18%;
+    }
+    .pricing__body__content {
+        right: 0;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .pricing__body__content {
+        font-size: 1.7rem;
+    }
+}
+

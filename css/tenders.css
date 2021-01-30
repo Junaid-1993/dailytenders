@@ -1,0 +1,129 @@
+/************* Tender page ************/
+
+/***************** tender body ******************/
+
+.tender__body__icon{
+    width: 65%;
+}
+
+.tender__body__content {
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.tender__body__margin {
+    margin-top: 4.5rem;
+}
+
+/*************** Tender oppertunities ***************/
+
+.tender__opper__container {
+    margin-top: 3.5rem;
+}
+.tender__opper__content {
+    font-size: 2.1rem;
+}
+
+.tender__opper__margin {
+    margin-top: 4rem;
+}
+
+/*************** Tender contact ******************/
+
+.tender__contact {
+    margin-top: 6rem;
+}
+
+
+/****************** Media Query *****************/
+
+
+@media screen and (max-width: 1200px) {
+     .tender__body__content {
+        font-size: 1.7rem;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .tender__body__icon {
+        width: 75%;
+    }
+    .tender__body__content {
+        font-size: 1.7rem;
+    }
+    .medium__body__container {
+        max-width: 820px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .body__icon {
+        width: 45%;
+    }
+    .body__icon__container {
+        padding-right: 0;
+    }
+    .body__content_container {
+        padding-left: 0;
+    }
+    .body__content {
+        font-size: 2rem;
+    }
+    .tender__body__content {
+        font-size: 1.9rem;
+    }
+    .tender__opper__content {
+        font-size: 1.8rem;
+    }
+    .medium__body__container {
+        max-width: 600px;
+    }
+    .medium__margin__top {
+        margin-top: 3rem;
+    }
+    .medium__negative__margin {
+        margin-top: -1rem;
+    }
+ 
+}
+
+@media screen and (max-width: 575px) {
+    .body__icon {
+        width: 30%;
+    }
+    .body__heading {
+        font-size: 3rem;
+    }
+    .body__content {
+        font-size: 1.9rem;
+        margin-top: 2rem;
+    }
+    .tender__body__content {
+        font-size: 1.9rem;
+    }
+    .small__margin__top {
+        margin-top: 3rem;
+    }
+
+    .tender__opper__content {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .body__icon {
+        width: 40%;
+    }
+    .body__heading {
+        font-size: 2.6rem;
+    }
+    .body__content {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    .tender__body__content {
+        font-size: 1.7rem;
+    }
+}
+
