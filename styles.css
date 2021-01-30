@@ -23,6 +23,10 @@ p {
     margin-bottom: 0;
 }
 
+button {
+    outline: none;
+}
+
 :root {
     --primary-text-color: #fff;
     --header-main-color: #51ADCF;
@@ -160,7 +164,7 @@ ul {
     color: white;
     font-size: 3rem;
     outline: none;
-    transition: color .5s ease-in-out;
+    transition: color .1s ease-in-out;
 }
 
 .custom-icon:hover {
@@ -172,7 +176,7 @@ ul {
 /************************ Hero Image **********************/
 
 .hero {
-    height: 60vh;
+    height: 550px;
     width: 100%;
     background-image: linear-gradient(rgb(81,173,207,0.7), rgb(81,173,207,0.7)), url("images/main-background.jpg");
     background-size: cover;
@@ -352,9 +356,9 @@ ul {
 /****************** Media Query *****************/
 
 @media screen and (max-width: 1200px) {
-    /* .header {
-        background-color: #000;
-    } */
+    .hero {
+        height: 480px;
+    }
     .contact__content {
         font-size: 3rem;
     }
@@ -386,7 +390,7 @@ ul {
         font-size: 2rem;
     }
     .hero {
-        height: 55vh;
+        height: 470px;
     }
     .contact__content {
         font-size: 2.5rem;
@@ -404,7 +408,7 @@ ul {
 
 @media screen and (max-width: 767px) {
     .hero {
-        height: 50vh;
+        height: 410px;
     }
     .header {
         /* background-color: orange; */
@@ -495,7 +499,6 @@ ul {
         font-size: 2.3rem;
     }
     .hero {
-        height: 49vh;
         padding-top: 4rem;
     }
     .hero__heading {
@@ -586,7 +589,7 @@ ul {
         padding-right: 1.5rem;
     }
     .hero {
-        height: 36vh;
+        height: 300px;
         padding-top: 4rem;
     }
     .hero__heading {
