@@ -174,7 +174,7 @@ ul {
 .hero {
     height: 60vh;
     width: 100%;
-    background-image: linear-gradient(rgb(81,173,207,0.7), rgb(81,173,207,0.7)), url("public/images/main-background.jpg");
+    background-image: linear-gradient(rgb(81,173,207,0.7), rgb(81,173,207,0.7)), url("images/main-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 7.5rem;
@@ -227,7 +227,7 @@ ul {
 
 .secondary__hero {
     width: 100%;
-    background-image: linear-gradient(rgb(81,173,207,0.7), rgb(81,173,207,0.7)), url("public/images/main-background.jpg");
+    background-image: linear-gradient(rgb(81,173,207,0.7), rgb(81,173,207,0.7)), url("images/main-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -281,7 +281,7 @@ ul {
   height: 500px;
   background-color: #51ADCF;
   text-align: center;
-  background-image: linear-gradient(rgb(81,173,207,0.7), rgb(81,173,207,0.7)), url("public/images/main-background-2.jpg");
+  background-image: linear-gradient(rgb(81,173,207,0.7), rgb(81,173,207,0.7)), url("images/main-background-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
