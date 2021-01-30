@@ -91,8 +91,8 @@ p {
     margin-top: 0.4rem;  
 }
 
-.header__navbar {
-}
+/* .header__navbar {
+} */
 
 ul {
     /* overwriting bootstraps margin */
@@ -352,9 +352,9 @@ ul {
 /****************** Media Query *****************/
 
 @media screen and (max-width: 1200px) {
-    .header {
+    /* .header {
         background-color: #000;
-    }
+    } */
     .contact__content {
         font-size: 3rem;
     }
@@ -362,9 +362,9 @@ ul {
 }
 
 @media screen and (max-width: 992px) {
-    .header {
+    /* .header {
         background-color: plum;
-    }
+    } */
     .hero__image {
         width: 100%;
     }
@@ -407,7 +407,7 @@ ul {
         height: 50vh;
     }
     .header {
-        background-color: orange;
+        /* background-color: orange; */
         display: flex;
         flex-wrap: wrap;
     }
@@ -483,7 +483,7 @@ ul {
         font-size: 52.5%;
     }
     .header {
-        background-color: red;
+        /* background-color: red; */
         padding-left: 2rem;
         padding-right: 2rem;
     }
@@ -581,7 +581,7 @@ ul {
 
 @media screen and (max-width: 420px) {
     .header {
-        background-color: blueviolet;
+        /* background-color: blueviolet; */
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
